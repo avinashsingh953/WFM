@@ -1,0 +1,8 @@
+<div class="card mb-3" >
+  <div class="card-header text-white bg-primary">{{module.name}} <a class="edit" routerLink="/modules/add"><i class="fa fa-edit"></i> </a></div>
+  <div class="card-body">
+    <h5 class="card-title">{{module.name}} ({{module.id}})</h5>
+    <p class="card-text">{{module.description}}</p>
+    <a (click)="editModule()" class="btn btn-outline-dark btn-sm text-right">More</a>
+  </div>
+</div>

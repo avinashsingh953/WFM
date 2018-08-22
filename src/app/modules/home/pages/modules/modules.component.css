@@ -1,0 +1,25 @@
+.new-module{
+    font-size: 207px;
+    color: #007bff;
+    margin-top: -1px;
+    cursor:pointer;
+}
+
+.show-list{
+    color:gray;
+    cursor:pointer;
+    font-size: 26px;
+    padding: 4px;
+}
+
+.show-card{
+    color:gray;
+    cursor:pointer;
+    font-size: 26px;
+    padding: 4px;
+}
+
+.show-list.active , 
+.show-card.active {
+    color:#fff;
+}

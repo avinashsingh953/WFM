@@ -1,0 +1,21 @@
+.round-item{
+    border-radius: 65px;
+    width: 60px;
+    height: 60px;
+}
+.image{
+    float:left;
+}
+
+.description{
+    width: 90%;
+    float: right;
+    white-space: pre;
+    color: #fff;
+}
+
+.list-group-item{
+    height: 60px;
+    border-radius: 65px;
+    padding: 0;
+}

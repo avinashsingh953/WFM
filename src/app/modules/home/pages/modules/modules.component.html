@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <div class="card-header text-white text-right bg-primary"><i class="fa fa-list show-list"></i>&nbsp;<i class="fa fa-th show-card active"></i></div>
+  <div class="card-body">
+  <div class="container-fluid display-card">
+    <div class="row">
+      <div class="col-sm-2">
+        <app-module-card [module]='module'></app-module-card>
+      </div>
+      <div class="col-sm-2">
+        <app-module-card [module]='module'></app-module-card>
+      </div>
+      <div class="col-sm-2">
+        <app-module-card [module]='module'></app-module-card>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid display-list" style="display:none;">  
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{module.name}}</li>
+      <li class="list-group-item">{{module.name}}</li>
+      <li class="list-group-item">{{module.name}}</li>
+    </ul>
+  </div>
+</div>
+</div>
